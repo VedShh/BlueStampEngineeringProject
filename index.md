@@ -86,6 +86,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ep94kPdA7n4?si=fmsSontJMI4SQai4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 For my starter project, I built a small circuit on the Arduino Uno. The circuit gets input from the motion sensor which either gives us a 'high' or 'low' data value. If the motion sensor does not detect motion then a red LED is lit up and if it does detect motion then a green LED is lit up along with a pienzo buzzer making a buzzing sound providing an audio distinction. I also added a potentiometer to control the pitch of the pienzo buzzer's sound. We have to put the potentiometer on the analog side because we incremently change the pitch. Some challenges that I faced when doing this starter project were mainly my lack of knowledge of the tools and the components. Once I overcame that things were coming together more smoothly. 
 
 # Other Resources/Examples
