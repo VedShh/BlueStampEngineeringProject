@@ -97,7 +97,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 For my starter project, I built a small circuit on the Arduino Uno. The circuit gets input from the motion sensor (refer to F1) which either gives us a 'high' or 'low' data value. If the motion sensor does not detect motion then a red LED is lit up and if it does detect motion then a green LED is lit up along with a pienzo buzzer making a buzzing sound providing an audio distinction. I coded this with a simple if-else checking that if the motion sensor returns 'high' then we light up the green LED + piezo buzzer, else we turn on the red LED. I also added a potentiometer to control the pitch of the piezo buzzer's sound. We have to put the potentiometer on the analog side because we incrementally change the pitch. Some challenges that I faced when doing this starter project were mainly my lack of knowledge of the tools and the components. After I learned the basics of Arduino, how to wire, how different sensors work, and the main wiring conventions, I was able to build circuits much faster.
 
-**F1: A basic motion sensor with 3 ports where power, ground, and a digital port is connected**
+**F1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected**
 
 ![Eduction Image](motionSensor.png)
 
