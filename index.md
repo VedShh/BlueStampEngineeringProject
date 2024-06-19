@@ -43,6 +43,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
+
+The end goal of my project is to have a functioning shoulder device that will tell you when you are doing movements that will not actually worsen your condition of Rotator Cuff Injury. 
+
 <!--
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
