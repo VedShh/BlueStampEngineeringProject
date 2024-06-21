@@ -55,6 +55,7 @@ The most frustrating thing of the entire process so far was the lack of instruct
     
 When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning diagram (see Figure 2). 
 
+
 ![Learning Rate](Screenshot 2024-06-21 114954.png)
 
 **What is next?**
