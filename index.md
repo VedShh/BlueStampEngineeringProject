@@ -44,7 +44,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 
 
-The end goal of my project is to have a functioning shoulder device that will tell you when you are doing movements that will not worsen your condition of Rotator Cuff Injury. Until now I have set up Edge Impulse, trained some data in Edge Impulse, and then uploaded the code into the Arduino IDE. In Edge Impulse I trained 4 different sets of data: idle, right, left, and up - I did this by simply holding my Arduino Nano 33 BLE Sense to my arm and doing these movements over and over again with just slight adjustments each time. After I inputted the data, Edge Impulse trained it and gave me a sample code. So far, I have not made edits to the code, but I plan to make the code more customizable later on. 
+The end goal of my project is to have a functioning shoulder device that will tell you when you are doing movements that will not worsen your condition of Rotator Cuff Injury. Until now I have set up Edge Impulse, trained some data in Edge Impulse, and then uploaded the code into the Arduino IDE. In Edge Impulse I trained 4 different sets of data: idle, right, left, and up - I did this by simply strapping my Arduino Nano 33 BLE Sense to my arm and doing these movements over and over again with just slight adjustments each time. After I inputted the data, Edge Impulse trained it and gave me a sample code. So far, I have not made edits to the code, but I plan to make the code more customizable later on. 
 
 <!--
 
