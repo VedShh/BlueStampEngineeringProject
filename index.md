@@ -48,10 +48,10 @@ The end goal of my project is to have a functioning shoulder device that will te
 
 **Challenges:** 
 The most frustrating thing of the entire process so far was the lack of instructions and steps that Arduino/Edge Impulse had to be able to set up the project. However, once I overcame the long process of setting up all the tools necessary, things became much easier, but I was not home-free yet. I became excited that I had finally set up everything I immediately jumped into recording data - without fully understanding what I was doing causing: 
-1) Caused me to record data that was useless (twice!!!),
-2) Uploaded code that did not do anything,
-3) Mislabing my data which caused massive accuracy issues,
-4) Finding the best settings for my data (learning rate, # of epochs, percentage of validation set).
+1) Caused me to record data that was useless (twice!!!),\n
+2) Uploaded code that did not do anything\n
+3) Mislabing my data which caused massive accuracy issues,\n
+4) Finding the best settings for my data (learning rate, # of epochs, percentage of validation set).\n
     
 When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning diagram (see Figure 2). 
 
