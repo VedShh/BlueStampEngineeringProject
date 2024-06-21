@@ -60,6 +60,7 @@ When I originally recorded my data I was doing random movements in each class - 
 ![Learning Rate](LearningRate.png)
 
 **What is next?**
+The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. 
 
 <!--
 
