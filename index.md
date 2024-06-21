@@ -47,13 +47,14 @@ For your second milestone, explain what you've worked on since your previous mil
 The end goal of my project is to have a functioning shoulder device that will tell you when you are doing movements that will not worsen your condition of Rotator Cuff Injury. Until now I have set up Edge Impulse, trained my model in Edge Impulse, and then uploaded the code into the Arduino IDE. In Edge Impulse I trained 4 different sets of data: idle, right, left, and up - I did this by simply strapping my Arduino Nano 33 BLE Sense to my arm and doing these movements over and over again with just slight adjustments each time. After I inputted the data, Edge Impulse trained it and gave me a sample code. So far, I have not made edits to the code, but I plan to make the code more customizable later on.
 
 **Challenges:** 
-The most frustrating thing of the entire process so far was the lack of instructions and steps that Arduino/Edge Impulse had to be able to set up the project. However, once I overcame the long process of setting up all the tools necessary, things became much easier, but I was not home-free yet. I became excited that I had finally set up everything I immediately jumped into recording data - without fully understanding what I was doing causing: 
-1) Caused me to record data that was useless (twice!!!),\n
-2) Uploaded code that did not do anything\n
-3) Mislabing my data which caused massive accuracy issues,\n
-4) Finding the best settings for my data (learning rate, # of epochs, percentage of validation set).\n
+The most frustrating thing of the entire process so far was the lack of instructions and steps that Arduino/Edge Impulse had to be able to set up the project. However, once I overcame the long process of setting up all the tools necessary, things became much easier, but I was not home-free yet. I became excited that I had finally set up everything I immediately jumped into recording data - without fully understanding what I was doing causing:
+
+1) Caused me to record data that was useless (twice!!!),
+2) Uploaded code that did not do anything,
+3) Mislabing my data which caused massive accuracy issues,
+4) Finding the best settings for my data (learning rate, # of epochs, percentage of validation set).
     
-When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning diagram (see Figure 2). 
+When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning diagram (see Figure 2). Originally the learning rate was too low and after I increased it the accuracy jumped up by 20 percent. 
 
 **What is next?**
 The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. 
