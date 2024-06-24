@@ -59,10 +59,6 @@ When I originally recorded my data I was doing random movements in each class - 
 **What is next?**
 The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. 
 
-**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it make many small changes which will take too much time.**
-
-![Learning Rate](LearningRate.png)
-
 <details>
   <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
     
@@ -213,6 +209,10 @@ The next steps are now to build the circuit and assemble the entire project, wit
     //#endif
 
 </details>
+
+**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it make many small changes which will take too much time.**
+
+![Learning Rate](LearningRate.png)
 
 
 <!--
