@@ -63,7 +63,7 @@ The next steps are now to build the circuit and assemble the entire project, wit
 <details>
   <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
 -->
-**Code**
+**Code:**
 ```c++
     /* Edge Impulse ingestion SDK
      * Copyright (c) 2022 EdgeImpulse Inc.
