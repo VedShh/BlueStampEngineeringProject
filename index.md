@@ -63,7 +63,8 @@ The next steps are now to build the circuit and assemble the entire project, wit
 
 ![Learning Rate](LearningRate.png)
 
-**Code:**
+<details>
+  <summary>**Code**</summary>
 ```c++
 /* Edge Impulse ingestion SDK
  * Copyright (c) 2022 EdgeImpulse Inc.
