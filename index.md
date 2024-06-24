@@ -65,7 +65,6 @@ The next steps are now to build the circuit and assemble the entire project, wit
 
 <details>
   <summary>Code</summary>
-    ```c++
     
     /* Edge Impulse ingestion SDK
      * Copyright (c) 2022 EdgeImpulse Inc.
@@ -213,7 +212,6 @@ The next steps are now to build the circuit and assemble the entire project, wit
     //#error "Invalid model for current sensor"
     //#endif
     
-    ```
 
 <!--
 
