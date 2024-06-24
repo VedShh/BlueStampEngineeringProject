@@ -11,7 +11,7 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 -->
 ![Headstone Image](Vedant.png)
 
-# Final Milestone
+<!-- # Final Milestone -->
 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -26,7 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 -->
 
-# Second Milestone
+<!-- # Second Milestone -->
 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
