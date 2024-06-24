@@ -56,13 +56,6 @@ The most frustrating thing of the entire process so far was the lack of instruct
     
 When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning rate (see Figure 2). Originally the learning rate was too low and after I increased it the accuracy jumped up by 60 percent. This is called micro-controlling and it does make a big difference. 
 
-**What is next?**
-The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. 
-
-**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it make many small changes which will take too much time.**
-
-![Learning Rate](LearningRate.png)
-
 <details>
   <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
     
@@ -211,7 +204,14 @@ The next steps are now to build the circuit and assemble the entire project, wit
     //#if !defined(EI_CLASSIFIER_SENSOR) || EI_CLASSIFIER_SENSOR != EI_CLASSIFIER_SENSOR_ACCELEROMETER
     //#error "Invalid model for current sensor"
     //#endif
-    
+
+**What is next?**
+The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. 
+
+**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it make many small changes which will take too much time.**
+
+![Learning Rate](LearningRate.png)
+
 
 <!--
 
