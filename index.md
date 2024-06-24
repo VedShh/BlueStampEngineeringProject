@@ -124,7 +124,7 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 
 
 
-# Other Resources/Examples
+<!--# Other Resources/Examples -->
 
 <!--
 
