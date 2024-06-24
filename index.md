@@ -4,7 +4,7 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Vedant S | Monta Vista | Electrical Engineering | Incoming Softmore
+| Vedant S | Monta Vista | Electrical Engineering | Incoming Sophomore
 
 <!-- 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
