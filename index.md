@@ -64,7 +64,7 @@ The next steps are now to build the circuit and assemble the entire project, wit
 ![Learning Rate](LearningRate.png)
 
 <details>
-  <summary><b>Code</b></summary>
+  <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
     
     /* Edge Impulse ingestion SDK
      * Copyright (c) 2022 EdgeImpulse Inc.
