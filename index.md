@@ -50,7 +50,8 @@ For your second milestone, explain what you've worked on since your previous mil
 The first milestone of my project is to deploy a machine-learning model onto an Arduino Nano BLE Sense 33 with Edge Impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made (see below at Figure 4).
 
 ![PredictionsExamples](Predictions.png)
-**Figure 4: This is a example screenshot of the predictions that my model made.**
+
+**Figure 4: This is an example screenshot of the predictions that my model made.**
 
 The first step would be to connect a device. Then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the Nano itself.
 
@@ -78,10 +79,12 @@ The next steps are now to build the circuit and assemble the entire project, wit
 -->
 
 ![Nueral Network](NeuralNetwork.png)
+
 **Figure 3: This is a screenshot of the neural network that I created for my data set. I wanted a deep and wide neural network as I had lots of data and there needed to be lots of processing power. To create a wide network I increased the number of neurons in each layer to 48, and to create a deep network I added 3 separate layers of 48 neurons. I also added a drop rate after each layer of 0.2. This forces the machine to learn as if there is not a drop rate then the machine will just memorize the path of your training data giving you a false accuracy. This drops out a few neurons each layer making the machine learn different patterns.**
 
 
 ![Learning Rate](LearningRate.png)
+
 **Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it makes many small changes which will take too much time.**
 
 <!--
