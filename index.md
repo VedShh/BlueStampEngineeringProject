@@ -43,6 +43,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kX5n4q9cTTE?si=_l9Z2tKIlmfRK0sR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Summary:**
 The first milestone of my project is to deploy a machine-learning model onto a nano sense 33 with edge impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made. The first step would be to connect a device then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you would have to design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the nano itself. 
 
