@@ -51,7 +51,7 @@ The first milestone of my project is to deploy a machine-learning model onto an 
 
 ![PredictionsExamples](Predictions.png)
 
-**Figure 4: This is an example screenshot of the predictions that my model made. You can see that it makes a prediction of x% on one of the 4 classes that I have made. **
+**Figure 4: This is an example screenshot of the predictions that my model made. You can see that it makes a prediction of x% on one of the 4 classes that I have made.**
 
 The first step would be to connect a device. Then the machine workflow starts with data acquisition, then you have to preprocess the data, then design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the Nano itself.
 
@@ -142,10 +142,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 **Summary:**
 I built a small circuit on the Arduino Uno for my starter project. The circuit gets input from the motion sensor (refer to Figure 1) which either gives us a 'high' or 'low' data value. If the motion sensor does not detect motion then a red LED is lit up and if it does detect motion then a green LED is lit up along with a pienzo buzzer making a buzzing sound providing an audio distinction. I coded this with a simple if-else checking that if the motion sensor returns 'high' then we light up the green LED + piezo buzzer, else we turn on the red LED. I also added a potentiometer to control the pitch of the piezo buzzer's sound. We have to put the potentiometer on the analog side because we incrementally change the pitch. Some challenges that I faced when doing this starter project were mainly my lack of knowledge of the tools and the components. After I learned the basics of Arduino, how to wire, how different sensors work, and the main wiring conventions, I was able to build circuits much faster.
 
-**Figure 1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected**
 
 ![Eduction Image](motionSensor.png)
 
+**Figure 1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected**
 
 
 # Other Resources/Examples
