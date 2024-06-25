@@ -45,6 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kX5n4q9cTTE?si=_l9Z2tKIlmfRK0sR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 **Summary:**
 The first milestone of my project is to deploy a machine-learning model onto an Arduino Nano BLE Sense 33 with Edge Impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made. 
 
@@ -143,8 +144,10 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 
 
 
-<!--# Other Resources/Examples -->
+# Other Resources/Examples
 
+- [Learning Rate](https://www.jeremyjordan.me/nn-learning-rate/)
+- 
 <!--
 
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
