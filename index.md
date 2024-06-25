@@ -44,7 +44,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 
 **Summary:**
-The first milestone of my project is to deploy a machine-learning model onto a nano sense 33 with edge impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made. The first step would be to connect a device then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you would have to design the neural network, and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the nano itself. 
+The first milestone of my project is to deploy a machine-learning model onto a nano sense 33 with edge impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made. The first step would be to connect a device then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you would have to design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the nano itself. 
 
 Until now I have set up Edge Impulse, trained my model in Edge Impulse, and then uploaded the code onto the nano. In Edge Impulse I trained 4 different sets of data: idle, right, left, and up - I did this by simply strapping my Arduino Nano 33 BLE Sense to my arm and doing these movements over and over again with just slight adjustments each time. After I inputted the data, I kept customizing certain settings in each step of the workflow (more on this further down), eventually getting a pretty accurate model. So far, I have not made edits to the code, but I plan to make the code more customizable later on.
 
@@ -59,7 +59,7 @@ The most frustrating thing of the entire process so far was the lack of instruct
 When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best settings for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning rate (see Figure 2). Originally the learning rate was too low and after I increased it the accuracy jumped up by 60 percent. This is called micro-controlling and it does make a big difference. 
 
 **What is next?**
-The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. Another big step would be to deploy my code onto the Arduino IDE while also increasing some accurarcy. 
+The next steps are now to build the circuit and assemble the entire project, with the main step during that next process to CAD and then eventually print out the 3D-printed case which will hold the entire circuit. Another big step would be to deploy my code onto the Arduino IDE while also increasing some accuracy. 
 
 <!--
 <details>
@@ -67,7 +67,11 @@ The next steps are now to build the circuit and assemble the entire project, wit
 </details>
 -->
 
-**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it make many small changes which will take too much time.**
+**Figure 3: This is a screenshot of the neural network that I created for my data set. I wanted a deep and wide neural network as I had lots of data and there needed to be lots of processing power. To create a wide network I increased the number of neurons in each layer to 48, and to create a deep network I added 3 separate layers of 48 neurons. I also added a drop rate after each layer of 0.2. This forces the machine to learn as if there is not a drop rate then the machine will just memorize the path of your training data giving you a false accuracy. This drops out a few neurons each layer making the machine learn different patterns.**
+
+![Nueral Network][nueralNetwork.png]
+
+**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it makes many small changes which will take too much time.**
 
 ![Learning Rate](LearningRate.png)
 
