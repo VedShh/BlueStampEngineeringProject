@@ -69,7 +69,7 @@ The next steps are now to build the circuit and assemble the entire project, wit
 
 **Figure 3: This is a screenshot of the neural network that I created for my data set. I wanted a deep and wide neural network as I had lots of data and there needed to be lots of processing power. To create a wide network I increased the number of neurons in each layer to 48, and to create a deep network I added 3 separate layers of 48 neurons. I also added a drop rate after each layer of 0.2. This forces the machine to learn as if there is not a drop rate then the machine will just memorize the path of your training data giving you a false accuracy. This drops out a few neurons each layer making the machine learn different patterns.**
 
-![Nueral Network][NeuralNetwork.png]
+![Nueral Network](NeuralNetwork.png)
 
 **Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it makes many small changes which will take too much time.**
 
