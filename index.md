@@ -47,7 +47,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 **Summary:**
-The first milestone of my project is to deploy a machine-learning model onto an Arduino Nano BLE Sense 33 with Edge Impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made. 
+The first milestone of my project is to deploy a machine-learning model onto an Arduino Nano BLE Sense 33 with Edge Impulse. I ran this with the terminal and it printed out how confident it was with predicting a certain movement that I had made (see below at Figure 4).
+
+![PredictionsExamples](Predictions.png)
+**Figure 4: This is a example screenshot of the predictions that my model made.**
 
 The first step would be to connect a device. Then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the Nano itself.
 
