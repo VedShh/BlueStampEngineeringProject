@@ -51,13 +51,13 @@ The first milestone of my project is to deploy a machine-learning model onto an 
 
 ![PredictionsExamples](Predictions.png)
 
-**Figure 4: This is an example screenshot of the predictions that my model made.**
+**Figure 4: This is an example screenshot of the predictions that my model made. You can see that it makes a prediction of x% on one of the 4 classes that I have made. **
 
-The first step would be to connect a device. Then the machine workflow starts with data acquisition, then you have to preprocess the data, and after that, you design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the Nano itself.
+The first step would be to connect a device. Then the machine workflow starts with data acquisition, then you have to preprocess the data, then design the neural network (see Figure 3 for my example), and finally, we can train our model. Currently, I uploaded the code that Edge Impulse made directly onto the Nano Sense 33, which requires a wired connection with the computer. Eventually, I want the code to be deployed wirelessly on the Nano itself.
 
 Until now I have set up Edge Impulse on my computer using the CLI (command line interface), trained my model in Edge Impulse, and then uploaded the code onto the nano.
 
-In Edge Impulse I trained 4 different sets of data: idle, right, left, and up. I strapped my Arduino Nano 33 BLE Sense to my arm and did these movements over and over again with just slight adjustments each time. Slight adjustments led to a variety of data so the model could become generalized. After I inputted the data, I kept customizing certain settings in each step of the workflow (more on this further down), eventually getting a pretty accurate model. So far, I have not made edits to the code, but I plan to make the code more customizable later on.
+In Edge Impulse I trained 4 different sets of data: idle, right, left, and up. I strapped my Arduino Nano 33 BLE Sense to my arm and did these movements repeatedly with just slight adjustments each time. Slight adjustments led to various data so the model could become generalized. After I inputted the data, I kept customizing certain settings in each step of the workflow (more on this further down), eventually getting a pretty accurate model. So far, I have not made edits to the code, but I plan to make the code more customizable later on.
 
 **Challenges:** 
 The most frustrating thing of the entire process so far was the lack of instructions and steps that Arduino/Edge Impulse had to be able to set up the project. However, once I overcame the long process of setting up all the tools necessary, things became much easier, but I was not home-free yet. I became excited that I had finally set up everything I immediately jumped into recording data - without fully understanding what I was doing causing:
