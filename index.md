@@ -150,7 +150,7 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 **Figure 1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected**
 
 
-# Other Resources/Examples
+# Works Cited
 
 - [Learning Rate](https://www.jeremyjordan.me/nn-learning-rate/)
 - [Motion Sensor](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
