@@ -87,7 +87,7 @@ The next steps are now to build the circuit and assemble the entire project, wit
 
 ![Learning Rate](LearningRate.png)
 
-**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it makes many small changes which will take too much time.**
+**Figure 2: A graph of what happens when the learning rate is too high/low. The yellow dot is where one starts if the learning rate is too high then the vector will jump around trying to find that optimal point. If the vectors are too small then it makes many small changes which will take too much time. (See Learning Rate link at the bottom of the page)**
 
 <!--
 
@@ -147,7 +147,7 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 
 ![Eduction Image](motionSensor.png)
 
-**Figure 1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected**
+**Figure 1: A basic motion sensor with 3 ports where power(VCC), ground(GND), and a digital port(OUT) are connected. (See Motion Sensor link at the bottom of the page)**
 
 
 # Works Cited
