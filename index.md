@@ -29,11 +29,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 **Summary:**
-The second milestone for my project is to CAD a 3D-printed box on Fusion 360, build my circuit, and fit the circuit inside of the box. My circuit is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. 
+The second milestone for my project is to CAD a 3D-printed box on Fusion 360, build my circuit, and fit the circuit inside of the box. 
 
 ![Fusion CAD](ShoulderCAD.png)
 
 **Figure 5: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
+
+My circuit is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. The SCL line is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+
+
 
 **Challenges:** 
 Some challenges that I have faced during this time have been trying to optimize space and function. The process of CADing could have been a lot quicker if I had disregarded space, however, I wanted this project to have some practical uses, and having a massive block on my shoulder would be uncomfortable. Because of this, I tried to minimize the space used by the parts to have the smallest block possible. 
