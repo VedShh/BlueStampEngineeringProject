@@ -29,13 +29,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 **Summary:**
-The second milestone for my project is to CAD a 3D-printed box on Fusion 360, build my circuit, and fit the circuit inside of the box. 
+The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 6), build my circuit, and fit the circuit inside of the box. 
 
 ![Fusion CAD](ShoulderCAD.png)
 
 **Figure 6: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
-My circuit is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. The SCL line is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+My circuit (see Figure 5) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. The SCL line is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
 
 ![Circuit](ShoulderCircuit.png)
 
