@@ -25,11 +25,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 
 -->
-<!--
+
 # Second Milestone
 
 **Summary**
--->
+The second milestone for my project is to CAD a 3D-printed box on fusion 360, build my circuit, and fit the circuit inside of the box. 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
