@@ -41,7 +41,7 @@ My circuit (see Figure 6) is quite simple with it just including 3 parts: Arduin
 
 **Figure 6: This is a photo of my circuit.**
 
-These wires are part of the I^2C protocol (see Figure 5) which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+These wires are part of the I^2C protocol (see Figure 5) which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The data is only transfered on the rising edge which is how the data is controlled. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
 
 ![I2C Circuit](I2C.png)
 
