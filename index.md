@@ -35,7 +35,7 @@ The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (se
 
 **Figure 6: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
-My circuit (see Figure 5) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. The SCL line is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+My circuit (see Figure 5) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. These wires are part of the I^2C protocol which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
 
 ![Circuit](ShoulderCircuit.png)
 
@@ -175,6 +175,7 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 
 - [Learning Rate](https://www.jeremyjordan.me/nn-learning-rate/)
 - [Motion Sensor](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
+- [I2C Protocol](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
   
 <!--
 
