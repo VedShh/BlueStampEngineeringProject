@@ -33,7 +33,7 @@ The second milestone for my project is to CAD a 3D-printed box on Fusion 360, bu
 
 ![Fusion CAD](ShoulderCAD.png)
 
-**Figure 5: This is a screenshot of my CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
+**Figure 5: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
 **Challenges:** 
 Some challenges that I have faced during this time have been trying to optimize space and function. The process of CADing could have been a lot quicker if I had disregarded space, however, I wanted this project to have some practical uses, and having a massive block on my shoulder would be uncomfortable. Because of this, I tried to minimize the space used by the parts to have the smallest block possible. 
@@ -41,10 +41,9 @@ Some challenges that I have faced during this time have been trying to optimize 
 At first, I was trying to find different switches that would take up less space however, after lots of time, I realized that the switch that I wanted to implement was running an AC current which was not compatible with my circuit which ran on a DC current. After building my circuit I started CADing and came up with a design. However, after printing it out I realized that I had not calculated for tolerance, which is making all the dimensions slightly larger to calculate for the error that the 3D printer makes. Since originally I had not calculated for tolerance none of my components fit into my box. When the box printed out I also realized that I could make my box even smaller by layering the components inside. 
 
 
-
-
-
 **What is next?**
+Now I will make some small refinements to my model, upload the model to the Arduino Nano BLE, and then start on my modifications. 
+
 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
