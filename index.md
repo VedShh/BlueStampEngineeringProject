@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 **Summary:**
-The second milestone for my project is to CAD a 3D-printed box on Fusion 360, build my circuit, and fit the circuit inside of the box. 
+The second milestone for my project is to CAD a 3D-printed box on Fusion 360, build my circuit, and fit the circuit inside of the box. My circuit is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. 
 
 ![Fusion CAD](ShoulderCAD.png)
 
