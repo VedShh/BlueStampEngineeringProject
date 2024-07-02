@@ -43,7 +43,7 @@ My circuit (see Figure 6) is quite simple with it just including 3 parts: Arduin
 
 These wires are part of the I^2C protocol (see Figure 5) which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
 
-![I2C][I2C.png]
+![I2C Circuit][I2C.png]
 
 **Figure 5: This is a photo of the I2C protocol. It first starts with the SDA line switching from high to low voltage, then the SCL line switches from high to low. Then the address frame is a 7 or 10-bit sequence that is unique to each "slave" (target device) and identifies the slave when the master (Arduino) wants to talk. The next message lets the slave know whether or not the master is going to be sending data. Every message is followed by an ACK/NACK bit which is returned to the sender if the data was successfully received.**
 
