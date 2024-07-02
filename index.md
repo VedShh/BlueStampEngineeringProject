@@ -29,17 +29,23 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 **Summary:**
-The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 6), build my circuit, and fit the circuit inside of the box. 
+The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 7), build my circuit, and fit the circuit inside of the box. 
 
 ![Fusion CAD](ShoulderCAD.png)
 
-**Figure 6: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
+**Figure 7: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
-My circuit (see Figure 5) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. These wires are part of the I^2C protocol which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+My circuit (see Figure 6) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. 
 
 ![Circuit](ShoulderCircuit.png)
 
-**Figure 5: This is a photo of my circuit.**
+**Figure 6: This is a photo of my circuit.**
+
+These wires are part of the I^2C protocol (see Figure 5) which first starts with identifying which port the target device is connected to. Once it identifies this then it starts the clock which switches from high to low in intervals so that the data is transferred efficiently. The SCL line that is used to synchronously clock data in and out of a device. The SDA line is used to transmit data. 
+
+![I2C][I2C.png]
+
+**Figure 5: This is a photo of the I2C protocol. It first starts with the SDA line switching from high to low voltage, then the SCL line switches from high to low. Then the address frame is a 7 or 10-bit sequence that is unique to each "slave" (target device) and identifies the slave when the master (Arduino) wants to talk. The next message lets the slave know whether or not the master is going to be sending data. Every message is followed by an ACK/NACK bit which is returned to the sender if the data was successfully received.**
 
 **Challenges:** 
 Some challenges that I have faced during this time have been trying to optimize space and function. The process of CADing could have been a lot quicker if I had disregarded space, however, I wanted this project to have some practical uses, and having a massive block on my shoulder would be uncomfortable. Because of this, I tried to minimize the space used by the parts to have the smallest block possible. 
