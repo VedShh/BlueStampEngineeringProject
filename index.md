@@ -34,6 +34,15 @@ The second milestone for my project is to CAD a 3D-printed box on Fusion 360, bu
 ![Fusion CAD](ShoulderCAD.png)
 
 **Figure 5: This is a screenshot of my CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
+
+**Challenges:** 
+Some challenges that I have faced during this time have been trying to optimize space and function. The process of CADing could have been a lot quicker if I had disregarded space, however, I wanted this project to have some practical uses, and having a massive block on my shoulder would be uncomfortable. Because of this, I tried to minimize the space used by the parts to have the smallest block possible. 
+
+At first, I was trying to find different switches that would take up less space however, after lots of time, I realized that the switch that I was trying 
+
+
+**What is next?**
+
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
