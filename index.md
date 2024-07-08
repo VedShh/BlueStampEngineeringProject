@@ -28,6 +28,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pXe6PBbaICc?si=IjKu5BtEdx9hOn4C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Summary:**
 The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 7), build my circuit, and fit the circuit inside of the box. (cont.)
 
