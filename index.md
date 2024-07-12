@@ -21,7 +21,9 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 
 **What's next?**
-
+Now that I have finished my project I can start working on my modifications. Some ideas that I have so far is: 
+- Connecting AI to my Arduino and giving live suggestions on the spot and then printing it out onto the OLED
+- Connecting the arduino to my phone and make a small app where I can display data and suggestions to
 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
