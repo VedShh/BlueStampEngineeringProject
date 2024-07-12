@@ -15,9 +15,12 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 
 **Summary:**
+My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE and print out the reading that the Arduino is getting onto the OLED screen. I had to actually re-do my model because when I first made the model I had only checked the training accuracy, without looking at the testing accuracy. When I eventually did look at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this I tried running my model in my terminal and realized that some of my movements and classes overlap which makes it very hard for the model to distinguish 
+
+After this I thought that the best way to continue was to restart my model. While I w
 
 
-**Challenges:**
+**Challenges:**I 
 
 
 **What's next?**
@@ -49,7 +52,7 @@ The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (se
 
 **Figure 7: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
-My circuit (see Figure 6) is quite simple with it just including 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch just rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. 
+My circuit (see Figure 6) includes 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. 
 
 ![Circuit](ShoulderCircuit.png)
 
