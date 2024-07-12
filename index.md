@@ -15,12 +15,12 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 
 **Summary:**
-My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE and print out the reading that the Arduino is getting onto the OLED screen. I had to actually re-do my model because when I first made the model I had only checked the training accuracy, without looking at the testing accuracy. When I eventually did look at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this I tried running my model in my terminal and realized that some of my movements and classes overlap which makes it very hard for the model to distinguish 
+My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE and print out the reading that the Arduino is getting onto the OLED screen. I had to actually re-do my model because when I first made the model I had only checked the training accuracy, without looking at the testing accuracy. When I eventually did look at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this I tried running my model in my terminal and realized that some of my movements and classes overlap which makes it very hard for the model to distinguish the different shoulder movemnets into distinct clases. 
 
-After this I thought that the best way to continue was to restart my model. While I w
+After this I thought that the best way to continue was to restart my model. I chose 4 new classes based on excerises: fullbow, armcircle, lateral, and idle(regular movement). I collected more data and got a fully trained model with a 100% accuracy.
 
 
-**Challenges:**I 
+**Challenges:**
 
 
 **What's next?**
