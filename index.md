@@ -17,7 +17,9 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 **Summary:**
 My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE and print out the reading that the Arduino is getting onto the OLED screen. I had to actually re-do my model because when I first made the model I had only checked the training accuracy, without looking at the testing accuracy. When I eventually did look at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this I tried running my model in my terminal and realized that some of my movements and classes overlap which makes it very hard for the model to distinguish the different shoulder movemnets into distinct clases. 
 
-After this I thought that the best way to continue was to restart my model. I chose 4 new classes based on excerises: fullbow, armcircle, lateral, and idle(regular movement). I collected more data and got a fully trained model with a 100% accuracy.
+After this I thought that the best way to continue was to restart my model. I chose 4 new classes based on excerises: fullbow, armcircle, lateral, and idle(regular movement). I collected more data and got a fully trained model with 100% trainging accuracy and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to trouble shoot and fix.
+
+Once I was able to deploy my model then I coded the OLED as a progress bar. Where the user has to make certain movements to help them in their process of the shoulder rehabilitaion. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progess bar fills up as soon as they have done the excerise. 
 
 
 **Challenges:**
