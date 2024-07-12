@@ -23,7 +23,7 @@ Once I was able to deploy my model then I coded the OLED as a progress bar. Wher
 
 
 **Challenges:**
-
+I have faced many challenges during this final miletsone. The first major one is when I realized that my model was not doing well in the testing data. As explained above, I had to restart my model and decided to classify the data in a more distinct way. I seperated the shoulder movements that had little to no overlap. I decided to do excerises because different excerises specifically target different parts of the shoulder so it would be the most efficient way to create the classes. When the classes and data overlap, your model can become innacurate. 
 
 **What's next?**
 Now that I have finished my project I can start working on my modifications. Some ideas that I have so far is: 
