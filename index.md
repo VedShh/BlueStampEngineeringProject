@@ -19,7 +19,9 @@ My final milestone for this project is to upload my model onto the Arduino Nano 
 
 After this, I thought that the best way to continue was to restart my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral, and idle(regular movement). I collected more data and got a fully trained model with 100% training accuracy and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to troubleshoot and fix.
 
-**Figure 8: This is a picture of my finished training model.**
+![TrainingRate](FinalTraining.png)
+
+**Figure 8: This is a picture of my finished training model and the training accurarcy.**
 
 Once I was able to deploy my model then I coded the OLED as a progress bar. Where the user has to make certain movements to help them in their process of the shoulder rehabilitaion. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progess bar fills up as soon as they have done the excerise. 
 
