@@ -21,7 +21,7 @@ After this, I thought that the best way to continue was to restart my model. I c
 
 ![TrainingRate](FinalTraining.png)
 
-**Figure 9: This is a picture of my finished training model and the training accuracy.**
+**Figure 8: This is a picture of my finished training model and the training accuracy.**
 
 Once I could deploy my model, I coded the OLED as a progress bar. The user has to make certain movements to help them in their process of shoulder rehabilitation. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progress bar fills up as soon as they have done the exercise. 
 
@@ -65,9 +65,7 @@ replace ![Fusion CAD](ShoulderCAD.png) with <width="250">
 
 ![Fusion CAD](ShoulderCAD.png)
 -->
-**Figure 7: This is a screenshot of my final CAD on Fusion 360.**         **Figure 8: This is the second version of my fully CADed box.**
-**I have 4 separate bodies (the main body, the OLED cover, the**          **I have uploaded some scroll code and all the circuits work inside.**
-**switch cover, and the slider lid).**
+**Figure 7: On the left is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid. On the right is a photo of my final box. I have uploaded some scroll code to make sure all the circuits are working.**         
 
 My circuit (see Figure 6) includes 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. 
 
