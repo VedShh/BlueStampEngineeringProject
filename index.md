@@ -21,20 +21,20 @@ After this, I thought that the best way to continue was to restart my model. I c
 
 ![TrainingRate](FinalTraining.png)
 
-**Figure 8: This is a picture of my finished training model and the training accurarcy.**
+**Figure 8: This is a picture of my finished training model and the training accuracy.**
 
-Once I was able to deploy my model then I coded the OLED as a progress bar. Where the user has to make certain movements to help them in their process of the shoulder rehabilitaion. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progess bar fills up as soon as they have done the excerise. 
+Once I could deploy my model, I coded the OLED as a progress bar. The user has to make certain movements to help them in their process of shoulder rehabilitation. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progress bar fills up as soon as they have done the exercise. 
 
 
 **Challenges:**
-I have faced many challenges during this final miletsone. The first major one is when I realized that my model was not doing well in the testing data. As explained above, I had to restart my model and decided to classify the data in a more distinct way. I seperated the shoulder movements that had little to no overlap. I decided to do excerises because different excerises specifically target different parts of the shoulder so it would be the most efficient way to create the classes. When the classes and data overlap, your model can become innacurate. 
+I have faced many challenges during this final milestone. The first major one is when I realized that my model was not doing well in the testing data. As explained above, I had to restart my model and decided to classify the data more distinctly. I separated the shoulder movements that had little to no overlap. I decided to do exercises because different exercises specifically target different parts of the shoulder so it would be the most efficient way to create the classes. When the classes and data overlap, your model can become inaccurate. 
 
-The second major challenge that I faced was with deploying my code into arduino. 
+The second major challenge that I faced was with deploying my code into Arduino. For some reason whenever I deployed my code from Edge Impulse onto the Arduino IDE it would misclassify the data as sometimes just guess. I tried to import many different versions of the code to see if one would work once I deployed it onto the Arduino. Eventually, my instructor and I figured out that my target device was not set to the Nano. Once I changed that, I deployed it onto the Arduino IDE and it worked!
 
 **What's next?**
-Now that I have finished my project I can start working on my modifications. Some ideas that I have so far is: 
-- Connecting AI to my Arduino and giving live suggestions on the spot and then printing it out onto the OLED
-- Connecting the arduino to my phone and make a small app where I can display data and suggestions to
+Now that I have finished my project I can start working on my modifications. Some ideas that I have so far are: 
+- Connecting AI to my Arduino giving live suggestions on the spot and then printing them out onto the OLED
+- Connecting the Arduino to my phone and making a small app where I can display data and suggestions to
 
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
