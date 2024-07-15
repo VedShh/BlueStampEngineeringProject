@@ -56,7 +56,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Summary:**
 The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 7), build my circuit, and fit the circuit inside of the box. (cont.)
 
-![Fusion CAD](ShoulderCAD.png){:height="250px" width="250px"}            ![FinalBox](BSEbox.png){:height="250px" width="250px"}
+replace ![Fusion CAD](ShoulderCAD.png) with <width="250">
+
+//![Fusion CAD](ShoulderCAD.png){:height="250px" width="250px"}            ![FinalBox](BSEbox.png){:height="250px" width="250px"}
 
 **Figure 7: This is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid).**
 
