@@ -56,15 +56,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Summary:**
 The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 7), build my circuit, and fit the circuit inside of the box. (cont.)
 
-<img src="ShoulderCAD.png" alt="Fusion CAD" width="500" height="400"> <img src="BSEbox.png" alt="FinalBox" width="450" height="400">
+<img src="ShoulderCAD.png" alt="Fusion CAD" width="350" height="300"> <img src="BSEbox.png" alt="FinalBox" width="350" height="250">
 
-<!--
-replace ![Fusion CAD](ShoulderCAD.png) with <width="250">
 
-![Fusion CAD](ShoulderCAD.png){:height="250px" width="250px"}            ![FinalBox](BSEbox.png){:height="250px" width="250px"}
-
-![Fusion CAD](ShoulderCAD.png)
--->
 **Figure 7: On the left is a screenshot of my final CAD on Fusion 360. I have 4 separate bodies (the main body, the OLED cover, the switch cover, and the slider lid. On the right is a photo of my final box. I have uploaded some scroll code to make sure all the circuits are working.**         
 
 My circuit (see Figure 6) includes 3 parts: Arduino Nano BLE Sense (microcontroller), OLED screen, and the on/off switch. The main circuit is between the Arduino and the OLED screen, the switch rests between the power cable that goes from the Arduino to the OLED screen. When the switch turns on it connects the power cables, but when it is off it disables the connection. The other parts of the circuit include ground, SCL, and SDA wires. 
