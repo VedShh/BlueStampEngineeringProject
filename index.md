@@ -23,7 +23,8 @@ After this, I thought that the best way to continue was to restart my model. I c
 
 **Figure 8: This is a picture of my finished training model and the training accuracy.**
 
-Once I could deploy my model, I coded the OLED as a progress bar. The user has to make certain movements to help them in their process of shoulder rehabilitation. As they do the movements (ex: 10 lateral raises, 10 arm circles, etc) a progress bar fills up as soon as they have done the exercise. 
+Once I could deploy my model, I coded the OLED so it shows the label and its prediction of how accurate it is. This display refreshes every 2 seconds. In my code, I first found out the highest prediction that the model outputs (ex: idle: 0.996) - then it stores that value into a variable. 
+
 
 
 **Challenges:**
