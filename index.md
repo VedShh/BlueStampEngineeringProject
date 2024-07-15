@@ -13,6 +13,7 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 # Final Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JZwXgedtqrc?si=w9vaD7sz02Kj_QEa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Summary:**
 My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE - making it completely wireless and then print out the reading that the Arduino is getting onto the OLED screen. I had to redo my model because when I first made the model, I only checked the training accuracy, without looking at the testing accuracy. When I eventually looked at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this, I tried running my model in my terminal and realized that some of my movements and classes overlap, making it very hard for the model to distinguish the different shoulder movements into distinct classes. 
