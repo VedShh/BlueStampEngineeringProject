@@ -17,14 +17,16 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 **Summary:**
 My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE and print out the reading that the Arduino is getting onto the OLED screen. I had to redo my model because when I first made the model, I only checked the training accuracy, without looking at the testing accuracy. When I eventually looked at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this, I tried running my model in my terminal and realized that some of my movements and classes overlap, making it very hard for the model to distinguish the different shoulder movements into distinct classes. 
 
-After this, I thought that the best way to continue was to restart my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral, and idle(regular movement). I collected more data and got a fully trained model with 100% training accuracy and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to troubleshoot and fix.
+After this, I thought that the best way to continue was to restart my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral, and idle(regular movement). I collected more data and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to troubleshoot and fix.
 
 ![TrainingRate](FinalTraining.png)
 
-**Figure 8: This is a picture of my finished training model and the training accuracy.**
+**Figure 9: This is a picture of my finished training model and the training accuracy.**
 
-Once I could deploy my model, I coded the OLED so it shows the label and its prediction of how accurate it is. This display refreshes every 2 seconds. In my code, I first found out the highest prediction that the model outputs (ex: idle: 0.996) - then it stores that value into a variable. 
+Once I could deploy my model, I coded the OLED so it shows the label and its prediction of how accurate it is. This display refreshes every 2 seconds. In my code, I first found out the highest prediction that the model outputs (ex: idle: 0.996) - then it stores that value into a variable. Once I find the highest value then I print out that value along with the label that the value is associated with (see Figure 8).  
 
+![DisplayGood](DisplayWorking.png)
+**Figure 8: This is a photo of the accuracy that is printed to the serial monitor on the computer and the printed value that is on the OLED matching. 
 
 
 **Challenges:**
