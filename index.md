@@ -56,7 +56,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Summary:**
 The second milestone for my project is to CAD a 3D-printed box on Fusion 360 (see Figure 7), build my circuit, and fit the circuit inside of the box. (cont.)
 
-<img src="ShoulderCAD.png" alt="Fusion CAD" width="500" height="500">
+<img src="ShoulderCAD.png" alt="Fusion CAD" width="500" height="400"> <img src="BSEbox.png" alt="FinalBox" width="500" height="400">
 
 <!--
 replace ![Fusion CAD](ShoulderCAD.png) with <width="250">
