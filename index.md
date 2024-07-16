@@ -20,7 +20,7 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE - making it completely wireless and then print out the reading that the Arduino is getting onto the OLED screen. I had to redo my model because when I first made the model, I only checked the training accuracy, without looking at the testing accuracy. When I eventually looked at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low.  After this, I tried running my model in my terminal and realized that some of my movements and classes overlap, making it very hard for the model to distinguish the different shoulder movements into distinct classes. 
 
 
-<img src="Excerises.png" alt="DaExcersies" width="350" height="300">
+<img src="Excerises.png" alt="DaExcersies" width="500" height="300">
 
 **Figure 10: This is a photo of all 3 exercises I used in my model.**
 
