@@ -226,6 +226,11 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 - [Learning Rate](https://www.jeremyjordan.me/nn-learning-rate/)
 - [Motion Sensor](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
 - [I2C Protocol](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)
+- [Laterals](https://darebee.com/workouts/shoulder-arms-workout)
+- [ArmCircles](https://exer-pedia.com/exercise/shoulder-arm-mobility-circles/)
+- [TrainTest](https://www.v7labs.com/blog/train-validation-test-set)
+- [FullBow](https://darebee.com/workouts/rotator-cuff-workout.html)
+- 
   
 <!--
 
