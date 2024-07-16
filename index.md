@@ -17,7 +17,7 @@ This project aids in the recovery process of a rotator cuff injury. This shoulde
 
 
 **Summary:**
-My final milestone for this project is to upload my model onto the Arduino Nano 33 Sense BLE - making it completely wireless and then print out the reading that the Arduino is getting onto the OLED screen. I had to redo my model because when I first made the model, I only checked the training accuracy, without looking at the testing accuracy (look below at Figure 11 for the differences). When I eventually looked at the testing accuracy, I realized that the model was memorizing the training data which is why the training accuracy was so high and the testing accuracy was so low. After this, I tried running my model in my terminal and realized that some of my movements and classes overlap, making it very hard for the model to distinguish the different shoulder movements into distinct classes. 
+My final milestone is to deploy my shoulder movement model onto the Arduino Nano 33 Sense BLE! I made it completely wireless and print out the ML predictions onto the OLED screen. I redid my model to focus on testing accuracy and shoulder movements that I found online. When I first made the model, I only checked the training accuracy, without looking at the testing accuracy (look below at Figure 11 for the differences). I eventually looked at the testing accuracy and realized that the model was memorizing the training data. I knew it was memorizing because it was performing well on training data, but on testing data (unseen data) it was not doing well. After this, I tried running my model in my terminal and realized that some of my movements and classes overlap, making it very hard for the model to distinguish the different shoulder movements into distinct classes. 
 
 <img src="TrainTestValidation.png" alt="DaExcersies" width="500" height="300">
 <!--
@@ -31,7 +31,7 @@ My final milestone for this project is to upload my model onto the Arduino Nano 
 **Figure 10: This is a photo of all 3 exercises I used in my model.**
 
 
-The best way to continue was to restart my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral, and idle(regular movement) (see Figure 10 above). I collected more data and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to troubleshoot and fix.
+The best way to continue was to record new data and redesign the architecture for my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral raise, and idle(regular movement) (see Figure 10 above). I collected more data roughly 10 minutes total after splitting all the data, and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto my embedded device (Arduino Nano 33 BLE Sense) the predictions would be random. This took a lot of time to troubleshoot and fix.
 
 ![TrainingRate](FinalTraining.png)
 
