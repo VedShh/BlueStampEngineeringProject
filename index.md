@@ -23,11 +23,13 @@ My final milestone for this project is to upload my model onto the Arduino Nano 
 <!--
 ![TTV](TrainTestValidation.png)
 -->
+
 **Figure 11: This is a screenshot of the differences between the train, test, and validation data sets. The validation data set is usually just segmented off the train data test.**
 
 <img src="Excerises.png" alt="DaExcersies" width="500" height="300">
 
 **Figure 10: This is a photo of all 3 exercises I used in my model.**
+
 
 The best way to continue was to restart my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral, and idle(regular movement) (see Figure 10 above). I collected more data and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto the Arduino IDE the predictions that it would make would be random predictions. This took a lot of time to troubleshoot and fix.
 
