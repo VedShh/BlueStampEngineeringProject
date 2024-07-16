@@ -230,7 +230,6 @@ I built a small circuit on the Arduino Uno for my starter project. The circuit g
 - [ArmCircles](https://exer-pedia.com/exercise/shoulder-arm-mobility-circles/)
 - [TrainTest](https://www.v7labs.com/blog/train-validation-test-set)
 - [FullBow](https://darebee.com/workouts/rotator-cuff-workout.html)
-- 
   
 <!--
 
