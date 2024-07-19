@@ -24,14 +24,14 @@ My final milestone is to deploy my shoulder movement model onto the Arduino Nano
 ![TTV](TrainTestValidation.png)
 -->
 
-**Figure 11: This is a screenshot of the differences between the train, test, and validation data sets. The validation data set is usually just segmented off the train data test. If the validation accuracy is not high (90+) then you can redo the top part until you get that desired accuracy.**
+**Figure 11: This is a screenshot of the differences between the train, test, and validation data sets. The validation data set is usually just segmented off the train data test. If the validation accuracy is not high (90+) then you can redo the top part until you get that desired accuracy. (See bottom of page for source)**
 
 <img src="Excerises.png" alt="DaExcersies" width="500" height="300">
 
-**Figure 10: This is a photo of all 3 exercises I used in my model.**
+**Figure 10: This is a photo of all 3 exercises I used in my model. (See at the bottom of the page for the source)**
 
 
-The best way to continue was to record new data and redesign the architecture for my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral raise, and idle(regular movement) (see Figure 10 above). I collected more data roughly 10 minutes total after splitting all the data, and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto my embedded device (Arduino Nano 33 BLE Sense) the predictions would be random. This took a lot of time to troubleshoot and fix.
+The best way to continue was to record new data and redesign the architecture for my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral raise, and idle(regular movement) (see Figure 10 above). I collected more data roughly 10 minutes total after splitting all the data, and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto my embedded device (Arduino Nano 33 BLE Sense) the predictions were random. This took a lot of time to troubleshoot and fix.
 
 ![TrainingRate](FinalTraining.png)
 
