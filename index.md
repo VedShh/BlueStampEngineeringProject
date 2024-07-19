@@ -70,8 +70,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <details>
   <summary><b>Final Code</b></summary>
-    ~~~
-    Hello
+    ~~~html
+    System.out.println("HELLO");
     ~~~
 </details>
 
