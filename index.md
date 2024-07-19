@@ -41,7 +41,7 @@ Once I could deploy my model, I coded the OLED so it shows the label and its pre
 
 ![DisplayGood](movements.png)
 
-**Figure 8: This is a photo of the accuracy that is printed to the serial monitor on the computer and the printed value that is on the OLED matching.**
+**Figure 8: This is a photo of all 4 of my movement classes that are all displaying 100 percent accuracy.**
 
 
 **Challenges:**
