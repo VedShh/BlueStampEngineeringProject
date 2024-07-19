@@ -69,7 +69,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Final Code
 
 ```c++
-void setup() {
+<details>
+  <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
+  void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.println("Hello World!");
@@ -79,7 +81,8 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
+</details>
+
 
 # Second Milestone
 
