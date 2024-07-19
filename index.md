@@ -197,8 +197,9 @@ void loop() {
 
 - <a href="https://store-usa.arduino.cc/products/nano-33-ble-sense-rev2-with-headers?gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrGZpO0uCQlcYXwoyQo1uV1hVKdxjny7cgm1z-Cc4NqsN9SuL9b_EGxoCO8AQAvD_BwE">Arduino Nano 33 BLE Sense</a>
 - <a href="https://geekworm.com/products/0-96-inch-oled?variant=39982251671640&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoo_Xjfk_CSJ04SWm9pKG7w3IMF9L5JKRlc9OFoA2WHD6CZBDicif4k&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c">OLED</a>
-- <a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">Toggle Swithc</a>
-
+- <a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">Toggle Switch</a>
+- <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y/ref=asc_df_B01CU1EC6Y/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=7311360903561842813&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435179018&psc=1&mcid=fdcb0f9cf99a38f59c978b1beff59d4f&hvocijid=7311360903561842813-B01CU1EC6Y-&hvexpln=73&gad_source=1"> Anker Battery </a>
+- 
 
 <!--
 
