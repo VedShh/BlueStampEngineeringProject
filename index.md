@@ -195,7 +195,9 @@ void loop() {
 
 # Bill of Materials
 
-- <a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">Arduino Nano 33 BLE Sense</a>
+- <a href="https://store-usa.arduino.cc/products/nano-33-ble-sense-rev2-with-headers?gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrGZpO0uCQlcYXwoyQo1uV1hVKdxjny7cgm1z-Cc4NqsN9SuL9b_EGxoCO8AQAvD_BwE">Arduino Nano 33 BLE Sense</a>
+- <a href="https://geekworm.com/products/0-96-inch-oled?variant=39982251671640&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoo_Xjfk_CSJ04SWm9pKG7w3IMF9L5JKRlc9OFoA2WHD6CZBDicif4k&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c">OLED</a>
+- <a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">Toggle Swithc</a>
 
 
 <!--
