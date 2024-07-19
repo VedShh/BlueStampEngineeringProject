@@ -70,7 +70,18 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <details>
   <summary><b>Final Code</b></summary>
-  ![code](Model_helloWorld.ino)
+  ```c++
+    void setup() {
+    // put your setup code here, to run once:
+      Serial.begin(9600);
+      Serial.println("Hello World!");
+    }
+    
+    void loop() {
+    // put your main code here, to run repeatedly:
+    
+    }
+  ```
   </details>
 
 
