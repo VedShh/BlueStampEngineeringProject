@@ -24,7 +24,7 @@ My final milestone is to deploy my shoulder movement model onto the Arduino Nano
 ![TTV](TrainTestValidation.png)
 -->
 
-**Figure 11: This is a screenshot of the differences between the train, test, and validation data sets. The validation data set is usually just segmented off the train data test.**
+**Figure 11: This is a screenshot of the differences between the train, test, and validation data sets. The validation data set is usually just segmented off the train data test. If the validation accuracy is not high (90+) then you can redo the top part until you get that desired accuracy.**
 
 <img src="Excerises.png" alt="DaExcersies" width="500" height="300">
 
