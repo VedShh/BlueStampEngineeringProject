@@ -39,7 +39,7 @@ The best way to continue was to record new data and redesign the architecture fo
 
 Once I could deploy my model, I coded the OLED so it shows the label and its prediction of how accurate it is. This display refreshes every 2 seconds. In my code, I first found out the highest prediction that the model outputs (ex: idle: 0.996) - then it stores that value into a variable. Once I find the highest value then I print out that value along with the label that the value is associated with (see Figure 8).  
 
-![DisplayGood](DisplayWorking.png)
+![DisplayGood](movements.png)
 
 **Figure 8: This is a photo of the accuracy that is printed to the serial monitor on the computer and the printed value that is on the OLED matching.**
 
