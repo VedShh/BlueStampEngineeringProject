@@ -33,7 +33,7 @@ My final milestone is to deploy my shoulder movement model onto the Arduino Nano
 
 The best way to continue was to record new data and redesign the architecture for my model. I chose 4 new classes based on exercises: full bow, arm circle, lateral raise, and idle(regular movement) (see Figure 10 above). I collected more data roughly 10 minutes total after splitting all the data, and got a fully trained model with 100% training accuracy (see Figure 9) and 97% test accuracy. After this, for some reason, when I tried deploying my model onto my embedded device (Arduino Nano 33 BLE Sense) the predictions were random. This took a lot of time to troubleshoot and fix.
 
-![TrainingRate](FinalTraining.png)
+![TrainingRate](dataStuff.png)
 
 **Figure 9: This is a picture of my finished training model and the training accuracy.**
 
