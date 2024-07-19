@@ -69,8 +69,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Final Code
 
 <details>
-  <summary><b>Code for Milestone 1: Edge Impulse Model</b></summary>
-  ```c++
+  <summary><b>Final Code</b></summary>
+  ```
   Hello
   ```
 </details>
