@@ -135,10 +135,10 @@ In Edge Impulse I trained 4 different sets of data: idle, right, left, and up. I
 **Challenges:** 
 The most frustrating thing of the entire process so far was the lack of instructions and steps that Arduino/Edge Impulse had to be able to set up the project. However, once I overcame the long process of setting up all the tools necessary, things became much easier, but I was not home-free yet. I became excited that I had finally set up everything I immediately jumped into recording data - without fully understanding what I was doing causing:
 
-1) Caused me to record data that was useless (twice!!!),
-2) Uploaded code that did not do anything,
-3) Mislabeling my data which caused massive accuracy issues,
-4) Finding the hyperparameters for my data (learning rate, # of epochs, percentage of validation set).
+- Me to record data that was useless (twice!!!),
+- Uploaded code that did not do anything,
+- Mislabeling my data which caused massive accuracy issues,
+- Finding the hyperparameters for my data (learning rate, # of epochs, percentage of validation set).
 
 When I originally recorded my data I was doing random movements in each class - however, the computer requires very distinct specific movements to be able to learn the most accurately, because of this I went back and manually cleaned/re-record some data that was not distinct enough for the computer. Finding the best hyperparameters for the data was another task that took lots of time. First, I had to understand all the settings, after that, I was able to start playing with my data. The thing that made the biggest difference was the learning rate (see Figure 2). Originally the learning rate was too low and after I increased it the accuracy jumped up by 60 percent.
 
