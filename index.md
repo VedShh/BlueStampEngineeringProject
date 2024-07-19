@@ -66,14 +66,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 
 -->
-# Final Code
-
-<details>
-  <summary><b>Final Code</b></summary>
-  ```c++
-    
-  ```
-  </details>
 
 
 # Second Milestone
