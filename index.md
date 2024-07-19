@@ -195,8 +195,10 @@ void loop() {
 
 # Bill of Materials
 
-- Arduino Nano 33 BLE Sense: <a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">
+<a href="https://www.digikey.com/en/products/detail/adam-tech/SW-T3-1A-A-A3-S1/15284460?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-15284460_sig-Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcrcpppuA1xDnv6HyRzlBbA-g4qBC06FePn6DcMNMxx-qPRmN4n68W8oaAkyCEALw_wcB">Arduino.</a>
 
+
+- Arduino Nano 33 BLE Sense: 
 <!--
 
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
