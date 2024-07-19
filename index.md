@@ -70,9 +70,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <details>
   <summary><b>Final Code</b></summary>
-  ```html
-  System.out.println("HELLO");
-  ```
+  ![code](Model_helloWorld.ino)
   </details>
 
 
